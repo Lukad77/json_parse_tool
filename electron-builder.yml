@@ -1,0 +1,18 @@
+appId: com.tool.json-parse-tool
+productName: 日志解析工具
+directories:
+  output: release
+files:
+  - dist/**/*
+  - dist-electron/**/*
+mac:
+  target:
+    - dmg
+  icon: null
+win:
+  target:
+    - nsis
+  icon: null
+linux:
+  target:
+    - AppImage
